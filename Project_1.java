@@ -14,15 +14,15 @@ public class Project_1 {
 	return ch+1;
   }  
   static void checkPerfect(int nm, int check) {
-   int temp = Math.abs(check-nm);
-   if((temp)==0) {
-     System.out.println(check+" perfect");
+    int temp = Math.abs(check-nm);
+    if((temp)==0) {
+      System.out.println(check+" perfect");
     }
-   else if((temp)<=2){
-     System.out.println(check+" almost perfect");
-}
-else if((temp)>2) {
-  System.out.println(check+" not perfect");
+    else if((temp)<=2){
+      System.out.println(check+" almost perfect");
+    }
+    else if((temp)>2) {
+      System.out.println(check+" not perfect");
     }
   }
  
@@ -30,10 +30,10 @@ else if((temp)>2) {
     int num;
     Scanner input = new Scanner(System.in);
     while(input.hasNextInt()) {
-        num = input.nextInt();
-        int checkNum =  findDivisors(num);
-        checkPerfect(checkNum, num);
-      }
+      num = input.nextInt();
+      int checkNum =  findDivisors(num);
+      checkPerfect(checkNum, num);
+    }
     input.close();
-   }  
+  }  
 }
