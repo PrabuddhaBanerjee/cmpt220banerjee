@@ -15,7 +15,6 @@ public class JavaMyClass {
 public static void main(String[] args) {
 	int num;
 	Scanner input = new Scanner(System.in);
-	System.out.print("Hi");
 	num = input.nextInt();
 	JavaMyClass temp = new JavaMyClass();
 	while(temp.pentagon(num)!=0) {
