@@ -82,7 +82,11 @@ public class MyLong {
 	    return val.getLong()==value;
 	  }
 	  public static void parseLong(char[] arr){
-	    System.out.println("In array of char[]:"+Long.parseLong(String.valueOf(arr)));      
+	    String str = "";
+            for (int i = 0; i < arr.length; i++) {
+	      str += arr[i];
+	    }
+	    System.out.println("In array of char[]:"+Long.parseLong(str));      
 	  }
 	  public static void parseLong(String str){
 		  System.out.println("In String:"+Long.parseLong(str));  
