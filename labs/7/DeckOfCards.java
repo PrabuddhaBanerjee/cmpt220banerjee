@@ -1,17 +1,7 @@
 import java.util.Scanner;
 public class DeckOfCards {
     private static Card[] cards = new Card[52];
-     public final static int Spades = 0;   // Codes for the 4 suits, plus Joker.
-     public final static int Diamonds = 1;
-     public final static int Hearts = 2;
-     public final static int Clubs = 3;
     String[] suits = { "Clubs", "Diamonds", "Hearts", "Spades" };
-    String[] ranks = { "Ace", "2", "3", "4", "5", "6","7", "8", "9", "10", "Jack", "Queen", "King" };
-    /*DeckOfCards( ) {
-      if (cards[0] == null) {
-        System.out.println("No cards yet!");
-      }
-    }*/
     DeckOfCards(){
       int index = 0;
       for (int suit = 0; suit <=3; suit++) {
