@@ -15,12 +15,6 @@ public class Circle
       this.y = y;
       this.radius = radius;
     }
-    public double getCenter()
-    {
-        // put your code here
-        //return x+","+y;
-        return x ;
-    }
     public double getRadius(){
       return radius;
     }
