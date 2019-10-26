@@ -44,7 +44,7 @@ public class Circle
     public boolean overlaps(Circle circle){
     	double a =Math.pow((Math.pow(this.x-circle.x,2)+Math.pow(this.y-circle.y,2)),0.5);
     
-      return a<this.radius+circle.radius;
+      return a < (this.radius) + (circle.radius);
     }
     
     
