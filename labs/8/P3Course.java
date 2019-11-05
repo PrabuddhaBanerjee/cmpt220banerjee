@@ -1,4 +1,4 @@
-package lab3;
+//package lab3;
 import java.util.ArrayList;
 public class P3Course{
     private String courseName;
