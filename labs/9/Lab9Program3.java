@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab8Program3 {
+public class Lab9Program3 {
 	public static  void bin2Dec(String binaryString){
 	  try {
 	    int decimal=Integer.parseInt(binaryString,2);  
