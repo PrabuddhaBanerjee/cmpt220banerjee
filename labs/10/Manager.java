@@ -8,7 +8,7 @@ class Manager extends Employee{
   }
   @Override
   public double salary(double hours){
-    return hourRate*20;
+    return hourRate;
   }
 }
 
